@@ -7,5 +7,6 @@ def contain_a(array)
 end 
 
 def first_wa(array)
+  if element.class = 
   array.find {|prefix| prefix.include?("wa")}
 end
