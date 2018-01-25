@@ -3,7 +3,7 @@ def begins_with_r(array)
 end
 
 def contain_a(array)
- return array.all? {|word| word.start_with?("r")}
+ array.find_all {|word| word.include?("a")}
 end 
 
 def first_wa(array)
