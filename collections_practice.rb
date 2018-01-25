@@ -7,12 +7,5 @@ def contain_a(array)
 end 
 
 def first_wa(array)
-  i = 0
-  while i < array.size
-    if array[i].start_with?("wa") == true
-      return array[i]
-    else 
-      i += 1
-    end 
-  end 
-end 
+  array.find {|prefix| prefix.include?("wa")}
+end
