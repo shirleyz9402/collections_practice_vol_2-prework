@@ -14,4 +14,6 @@ end
 
 def remove_non_string(array)
   array.delete_if do |element|
-    
+    element.class != String
+  end 
+end 
