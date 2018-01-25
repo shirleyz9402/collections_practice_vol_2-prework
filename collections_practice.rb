@@ -13,4 +13,5 @@ def first_wa(array)
 end 
 
 def remove_non_string(array)
-  
+  array.delete_if do |element|
+    
