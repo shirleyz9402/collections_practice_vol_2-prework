@@ -9,4 +9,5 @@ end
 def first_wa(array)
   if element.class = String
   array.find {|prefix| prefix.include?("wa")}
+end 
 end
